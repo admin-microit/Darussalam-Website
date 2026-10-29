@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Darussalam | Academy & Travel</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Myanmar:wght@400;500;600;700&display=swap"
+        rel="stylesheet"
+    >
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    >
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    <!-- =========================
+         NAVIGATION BAR
+    ========================== -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="index.html" class="logo">
+                <span class="logo-icon">
+                    <img src="picture/logo.png" alt="Darussalam Logo">
+                </span>
+
+                <span>Darussalam</span>
+            </a>
+
+            <button
+                class="menu-toggle"
+                id="menuToggle"
+                aria-label="Toggle navigation"
+                aria-expanded="false"
+                aria-controls="navMenu"
+            >
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+
+                <li>
+                    <a href="index.html" class="nav-link">Home</a>
+                </li>
+
+                <li>
+                    <a href="about.html" class="nav-link">About Us</a>
+                </li>
+
+                <!-- DROPDOWN MENU -->
+
+                <li class="dropdown">
+
+                    <button
+                        class="nav-link dropdown-toggle"
+                        id="exploreToggle"
+                        aria-expanded="false"
+                        aria-controls="exploreMenu"
+                    >
+                        Explore
+                        <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+
+                    <ul class="dropdown-menu" id="exploreMenu">
+
+                        <li>
+                            <a href="#academy">
+                                <i class="fa-solid fa-book-open"></i>
+                                Academy
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="#travel">
+                                <i class="fa-solid fa-plane"></i>
+                                Travel
+                            </a>
+                        </li>
+
+                    </ul>
+
+                </li>
+
+                <li>
+                    <a href="#our-story" class="nav-link contact-nav">
+                        Contact Us
+                    </a>
+                </li>
+
+            </ul>
+
+            <div class="language-switch" role="group" aria-label="Choose language">
+                <button type="button" class="language-btn active" data-language="en" aria-pressed="true">EN</button>
+                <button type="button" class="language-btn" data-language="my" aria-pressed="false">မြန်မာ</button>
+            </div>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- =========================
+             HERO SECTION
+        ========================== -->
+
+        <section class="hero" id="contact">
+
+            <div class="hero-decoration decoration-left">
+                
+            </div>
+
+            <div class="hero-content">
+
+                <span class="eyebrow">
+                    WE'RE HERE FOR YOU
+                </span>
+
+                <h1>
+                    Our Story
+                    <span></span>
+                </h1>
+
+                <div class="title-decoration"></div>
+
+                <p>
+ 
+<br>Darussalam Academy Myanmar was established in January 2025 as an educational initiative dedicated to the systematic study of Islamic sciences and their relevance to contemporary knowledge and issues.
+                </p>
+
+                <a href="#contact-form" class="primary-btn">
+                    Get In Touch
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+            </div>
+
+            <div class="hero-decoration decoration-right">
+                
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             BRAND STRIP
+        ========================== -->
+
+        <section class="trust-section">
+
+            <div class="container trust-inner">
+
+                <div class="trust-item">
+                    <i class="fa-solid fa-mosque"></i>
+                    <span>Faith & Guidance</span>
+                </div>
+
+                <div class="trust-item">
+                    <i class="fa-solid fa-shield-halved"></i>
+                    <span>Trusted Service</span>
+                </div>
+
+                <div class="trust-item">
+                    <i class="fa-solid fa-users"></i>
+                    <span>Community First</span>
+                </div>
+
+                <div class="trust-item">
+                    <i class="fa-solid fa-earth-asia"></i>
+                    <span>Journey Together</span>
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             CONTACT FORM
+        ========================== -->
+
+        <section class="contact-section" id="contact-section">
+
+            <div class="container">
+
+                <div class="contact-layout">
+
+                    <!-- LEFT: CONTACT FORM -->
+
+                    <div class="contact-form-wrapper" id="contact-form">
+
+                        <span class="section-label">
+                            CONTACT US
+                        </span>
+
+                        <h2>
+                            We'd Love to <span>Hear From You</span>
+                        </h2>
+
+                        <p class="section-description">
+                            Have a question about our Academy or Travel
+                            services? Send us a message and our team
+                            will get back to you.
+                        </p>
+
+                        <form id="contactForm">
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+
+                                    <label for="name">Full Name</label>
+
+                                    <input
+                                        type="text"
+                                        id="name"
+                                        name="name"
+                                        placeholder="Your name"
+                                        required
+                                    >
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="email">Email Address</label>
+
+                                    <input
+                                        type="email"
+                                        id="email"
+                                        name="email"
+                                        placeholder="Your email"
+                                        required
+                                    >
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-row">
+
+                                <div class="form-group">
+
+                                    <label for="phone">Phone Number</label>
+
+                                    <input
+                                        type="tel"
+                                        id="phone"
+                                        name="phone"
+                                        placeholder="Your phone number"
+                                        pattern="09[0-9]{7,9}"
+                                        required
+                                    >
+
+                                </div>
+
+                                <div class="form-group">
+
+                                    <label for="service">Interested In</label>
+
+                                    <select
+                                        id="service"
+                                        name="service"
+                                        required>
+                                        <option value="" disabled selected>
+                                            Select a service
+                                        </option>
+
+                                        <option value="academy">
+                                            Academy
+                                        </option>
+
+                                        <option value="travel">
+                                            Travel
+                                        </option>
+
+                                        <option value="other">
+                                            Other
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="form-group">
+
+                                <label for="message">Your Message</label>
+
+                                <textarea
+                                    id="message"
+                                    name="message"
+                                    rows="5"
+                                    placeholder="How can we help you?"
+                                    required
+                                ></textarea>
+
+                            </div>
+
+
+                            <button type="submit" class="submit-btn">
+
+                                Send Message
+
+                                <i class="fa-solid fa-paper-plane"></i>
+
+                            </button>
+
+                            <p
+                                id="formStatus"
+                                class="form-status"
+                                role="status"
+                                aria-live="polite"
+                            ></p>
+
+                        </form>
+
+                    </div>
+
+
+                    <!-- RIGHT: NEWSLETTER CARD -->
+
+                    <aside class="newsletter-card">
+
+                        <div class="newsletter-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <span class="newsletter-label">
+                            STAY CONNECTED
+                        </span>
+
+                        <h3>Join Our Newsletter</h3>
+
+                        <p>
+                            Receive inspiring stories, travel updates,
+                            and helpful resources for your spiritual
+                            journey.
+                        </p>
+
+                        <form id="newsletterForm">
+
+                            <input
+                                type="email"
+                                id="newsletterEmail"
+                                name="email"
+                                placeholder="Enter your email"
+                                aria-label="Newsletter email"
+                                required
+                            >
+
+                            <button type="submit">
+                                Subscribe
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </button>
+
+                            <p
+                                id="newsletterStatus"
+                                class="newsletter-status"
+                                role="status"
+                                aria-live="polite"
+                            ></p>
+
+                        </form>
+
+                        <div class="newsletter-decoration"></div>
+
+                    </aside>
+
+                </div>
+
+            </div>
+
+        </section>
+
+    
+
+        <!-- =========================
+             CONTACT INFORMATION
+        ========================== -->
+
+        <section class="info-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">
+                        OUR CONTACT DETAILS
+                    </span>
+
+                    <h2>
+                        Let's Start a <span>Conversation</span>
+                    </h2>
+
+                </div>
+
+
+                <div class="info-grid">
+
+                    <!-- PHONE -->
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+
+                        <div>
+                            <h3>Call Us</h3>
+
+                            <a href="tel:+95 9 756 417666">
+                                +95 9 756 417666
+                            </a>
+
+                            <p>
+                                Monday – Friday, 9 AM – 4 PM
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- EMAIL -->
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-regular fa-envelope"></i>
+                        </div>
+
+                        <div>
+                            <h3>Email Us</h3>
+
+                            <a href="mailto:halalfoundationmyanmar.info@gmail.com">
+                                halalfoundationmyanmar.info@gmail.com
+                            </a>
+
+                            <p>
+                                We usually reply within 24 hours.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <!-- LOCATION -->
+
+                    <div class="info-card">
+
+                        <div class="info-icon">
+                            <i class="fa-solid fa-location-dot"></i>
+                        </div>
+
+                        <div>
+                            <h3>Visit Us</h3>
+
+                            <a
+                                href="https://www.google.com/maps/search/?api=1&query=Yangon+Myanmar"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                               No.129, Room-216, 36th Street
+(Middle), 3rd Quarter, Kyauktada
+Township, Yangon, Myanmar, 1181
+                            </a>
+
+                            <p>
+                                We'd be happy to meet you.
+                            </p>
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             GOOGLE MAP
+        ========================== -->
+
+        <section class="map-section">
+
+            <div class="container">
+
+                <div class="map-heading">
+
+                    <div>
+                        <span class="section-label">
+                            FIND OUR LOCATION
+                        </span>
+
+                        <h2>
+                            Come <span>Visit Us</span>
+                        </h2>
+                    </div>
+
+                    <a
+                        href="https://www.google.com/maps/search/?api=1&query=Yangon+Myanmar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="map-link"
+                    >
+                        Open Google Maps
+                        <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                    </a>
+
+                </div>
+
+                <div class="map-container">
+
+                    <iframe
+                        src="https://maps.google.com/maps?q=Yangon%2C%20Myanmar&t=&z=12&ie=UTF8&iwloc=&output=embed"
+                        title="Map showing Yangon, Myanmar"
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                        allowfullscreen
+                    ></iframe>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             OPTIONAL PAGE ANCHORS
+        ========================== -->
+
+        <section class="hidden-anchor" aria-hidden="true">
+
+            <span id="about"></span>
+            <span id="academy"></span>
+            <span id="travel"></span>
+            <span id="our-story"></span>
+
+        </section>
+
+    </main>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="footer-main">
+
+                <!-- BRAND -->
+
+                <div class="footer-brand">
+
+                    <a href="index.html" class="footer-logo">
+
+                        <img src="picture/logo.png" alt="Darussalam Logo">
+
+                       
+
+                    </a>
+
+                    <p>Guiding your journey with faith, care, and meaningful experiences.</p>
+
+                    <div class="social-links">
+
+                        <a
+                            href="https://www.facebook.com/share/1PiE2LHByP/?mibextid=wwXIfr"
+                            aria-label="Facebook"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a
+                            href="https://www.tiktok.com/@halalfoundationmyanmar?_r=1&_t=ZS-9AXYIszKIK5"
+                            aria-label="TikTok"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-tiktok"></i>
+                        </a>
+
+                        <a
+                            href="https://youtube.com/@halalfoundationmyanmar?si=afU_kSOw0JRwcRVD"
+                            aria-label="YouTube"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- NAVIGATION -->
+
+                <div class="footer-column">
+
+                    <h4>Navigation</h4>
+
+                    <a href="index.html">Home</a>
+                    <a href="#about">About Us</a>
+                    <a href="#contact-section">Contact Us</a>
+
+                </div>
+
+
+                <!-- EXPLORE -->
+
+                <div class="footer-column">
+
+                    <h4>Explore</h4>
+
+                    <a href="#academy">Academy</a>
+                    <a href="#travel">Travel</a>
+                    <a href="#contact-form">Get in Touch</a>
+
+                </div>
+
+
+                <!-- SERVICES -->
+
+                <div class="footer-column">
+
+                    <h4>Our Services</h4>
+
+                    <a href="#academy">Islamic Academy</a>
+                    <a href="#travel">Travel Packages</a>
+                    <a href="#contact">Support</a>
+
+                </div>
+
+            </div>
+
+
+            <!-- FOOTER CONTACT BAR -->
+
+            <div class="footer-contact">
+
+                <div>
+                    <i class="fa-solid fa-location-dot"></i>
+                    No.129, Room-216, 36th Street
+(Middle), 3rd Quarter,<br> Kyauktada
+Township, Yangon, Myanmar, 11181
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-phone"></i>
+                    +95 9 756 417666
+                </div>
+
+                <div>
+                    <i class="fa-regular fa-envelope"></i>
+                   halalfoundationmyanmar.info@gmail.com
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+
+            <div class="footer-bottom">
+
+                <p>
+                    &copy; <span id="currentYear"></span>
+                    Darussalam. All Rights Reserved.
+                </p>
+
+                <p>
+                    Made with care for your spiritual journey.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JAVASCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>

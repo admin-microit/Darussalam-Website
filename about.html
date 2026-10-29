@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us | Darussalam Academy & Travel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&family=Playfair+Display:wght@400;500;600;700&family=Noto+Sans+Myanmar:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <link rel="stylesheet" href="about.css">
+</head>
+<body>
+    <!-- Shared navigation -->
+    <header class="header">
+        <nav class="navbar container">
+            <a href="index.html" class="logo">
+                <span class="logo-icon"><img src="picture/logo.png" alt="Darussalam Logo"></span>
+            </a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation"
+                aria-expanded="false" aria-controls="navMenu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="about.html" class="nav-link active-link" aria-current="page">About Us</a></li>
+                <li class="dropdown">
+                    <button class="nav-link dropdown-toggle" id="exploreToggle"
+                        aria-expanded="false" aria-controls="exploreMenu">
+                        Explore <i class="fa-solid fa-chevron-down"></i>
+                    </button>
+                    <ul class="dropdown-menu" id="exploreMenu">
+                        <li><a href="index.html#academy"><i class="fa-solid fa-book-open"></i>Academy</a></li>
+                        <li><a href="index.html#travel"><i class="fa-solid fa-plane"></i>Travel</a></li>
+                    </ul>
+                </li>
+                <li><a href="index.html#our-story" class="nav-link contact-nav">Contact Us</a></li>
+            </ul>
+
+            <div class="language-switch" role="group" aria-label="Choose language">
+                <button type="button" class="language-btn active" data-language="en" aria-pressed="true">EN</button>
+                <button type="button" class="language-btn" data-language="my" aria-pressed="false">မြန်မာ</button>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero -->
+        <section class="about-hero">
+            <span class="eyebrow">GET TO KNOW US</span>
+            <h1>About Us</h1>
+            <div class="title-decoration"></div>
+            <p>Learning with purpose, travelling with care, and growing together through meaningful experiences.</p>
+        </section>
+
+        <!-- Image strip: add your own images to the picture folder -->
+        <section class="gallery-section container" aria-label="Darussalam photo gallery">
+            <div class="gallery-image gallery-one"><img src="picture/p1.JPG" alt="Students learning together"></div>
+            <div class="gallery-image gallery-two"><img src="picture/p2.JPG" alt="A student studying"></div>
+            <div class="gallery-image gallery-three"><img src="picture/p3.JPG" alt="People sharing knowledge"></div>
+            <div class="gallery-image gallery-four"><img src="picture/p4.jpg" alt="A mentor guiding a learner"></div>
+        </section>
+
+        <!-- Story -->
+
+        <section class="story-section container">
+            <div class="section-intro">
+                <span class="section-label">OUR VISION</span>
+                <div class="section-column">
+                <h2>Empowering <span>lives,</span><br>Strengthing<span> Communities</span></h2><blockquote>To become a trusted institution for Islamic education and scholarship in Myanmar.</blockquote>
+                </div>
+            </div>
+            <div class="story-columns">      
+            </div>
+
+        </section>
+
+        <!-- Mission feature -->
+        <section class="mission-section container">
+            <div class="mission-image">
+                <img src="picture/p5.JPG" alt="A learner reading and reflecting">
+                <div class="image-caption">
+                    <span class="caption-mark"><i class="fa-solid fa-book-open"></i></span>
+                    <div><strong>Learning with purpose</strong><span>Darussalam Academy &amp; Travel</span></div>
+                </div>
+            </div>
+            <div class="mission-copy">
+                <span class="section-label">OUR MISSION</span>
+                <h2>Inspiring <span>Learning,</span> <br>Creating <span>Impact</span></h2>
+                <p>To provide quality educational programs grounded in authentic Islamic sources and sound scholarly methodologies, cultivate critical thinking, and promote informed engagement with contemporary knowledge, ideas, and societal challenges through Islamic scholarship.</p>
+                <blockquote>A meaningful journey begins with good intentions, trusted guidance, and a willingness to learn.</blockquote>
+        </section>
+
+        <!-- Values -->
+        <section class="values-section">
+            <div class="container">
+                <div class="values-heading">
+                    <span class="section-label">WHAT MATTERS TO US</span>
+                    <h2>Growing <span>Together, </span> With <span>Purpose</span></h2>
+                    <p>Our work is guided by values that shape how we learn, serve, and connect with our community.</p>
+                </div>
+                <div class="values-grid">
+                    <article class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-book-open-reader"></i></div>
+                        <h3>Faith & Knowledge</h3>
+                        <p>Encouraging thoughtful learning rooted in faith, understanding, and lifelong growth.</p>
+                    </article>
+                    <article class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-handshake-angle"></i></div>
+                        <h3>Trusted Service</h3>
+                        <p>Serving with care, responsibility, and respect for the needs of every person.</p>
+                    </article>
+                    <article class="value-card">
+                        <div class="value-icon"><i class="fa-solid fa-people-group"></i></div>
+                        <h3>Community First</h3>
+                        <p>Building meaningful connections and helping people move forward together.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Shared footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-main">
+                <div class="footer-brand">
+                    <a href="index.html" class="footer-logo"><img src="picture/logo.png" alt="Darussalam Logo"></a>
+                    <p>Guiding your journey with faith, care, and meaningful experiences.</p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/1PiE2LHByP/?mibextid=wwXIfr" aria-label="Facebook" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="https://www.tiktok.com/@halalfoundationmyanmar?_r=1&_t=ZS-9AXYIszKIK5" aria-label="TikTok" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="https://youtube.com/@halalfoundationmyanmar?si=afU_kSOw0JRwcRVD" aria-label="YouTube" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h4>Navigation</h4>
+                    <a href="index.html">Home</a>
+                    <a href="about.html">About Us</a>
+                    <a href="index.html#contact-section">Contact Us</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Explore</h4>
+                    <a href="index.html#academy">Academy</a>
+                    <a href="index.html#travel">Travel</a>
+                    <a href="index.html#contact-form">Get in Touch</a>
+                </div>
+                <div class="footer-column">
+                    <h4>Our Services</h4>
+                    <a href="index.html#academy">Islamic Academy</a>
+                    <a href="index.html#travel">Travel Packages</a>
+                    <a href="index.html#contact">Support</a>
+                </div>
+            </div>
+
+            <div class="footer-contact">
+                <div><i class="fa-solid fa-location-dot"></i><span>No.129, Room-216, 36th Street (Middle), 3rd Quarter,<br>Kyauktada Township, Yangon, Myanmar, 11181</span></div>
+                <div><i class="fa-solid fa-phone"></i><a href="tel:+959756417666">+95 9 756 417666</a></div>
+                <div><i class="fa-regular fa-envelope"></i><a href="mailto:halalfoundationmyanmar.info@gmail.com">halalfoundationmyanmar.info@gmail.com</a></div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> Darussalam. All Rights Reserved.</p>
+                <p>Made with care for your spiritual journey.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
